@@ -137,17 +137,17 @@ class GoAmqpWrapperConnector
         return base64_decode($this->msg['Body']);
     }
 
-    public function Ack()
+    public function ack()
     {
         exit(self::ACK);
     }
 
-    public function Reject()
+    public function reject()
     {
         exit(self::REJECT);
     }
 
-    public function RejectRequeue()
+    public function rejectRequeue()
     {
         exit(self::REJECT_REQUEUE);
     }
