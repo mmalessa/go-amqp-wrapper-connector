@@ -6,7 +6,9 @@ Development version.
 Use it at your own risk.
 
 # Install
-//TODO
+```shell script
+composer req mmalessa/go-amqp-wrapper-connector
+```
 
 # Example of use
 ```php
