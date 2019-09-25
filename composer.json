@@ -1,0 +1,24 @@
+{
+    "name": "mmalessa/go-amqp-wrapper-connector",
+    "type": "library",
+    "description": "go-amqp-wrapper connector for php",
+    "keywords": [
+        "amqp", "rabbit", "amqp wrapper", "rabbit wrapper"
+    ],
+    "homepage": "https://github.com/mmalessa/go-amqp-wrapper-connector",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Malessa",
+            "homepage": "http://github.com/mmalessa/"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mmalessa\\GoAmqpWrapperConnector\\": "src/"
+        }
+    }
+}

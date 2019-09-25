@@ -1,2 +1,6 @@
 # go-amqp-wrapper-connector
-go-amqp-wrapper connector for php
+
+PHP connector for https://github.com/mmalessa/go-amqp-wrapper  
+
+Development version.  
+Use it at your own risk.
