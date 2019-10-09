@@ -36,7 +36,7 @@ class GoAmqpWrapperConnector
 
     }
 
-    public function getHeaders(): array
+    public function getHeaders(): ?array
     {
         return $this->msg['Headers'];
 
